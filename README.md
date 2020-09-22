@@ -12,7 +12,7 @@ The following installations should be done during environment setup int the term
 * Scipy
 `pip install scipy`
 * scikit-learn
-`-U scikit-learn`
+`pip install -U scikit-learn`
 * Seaborn
 `pip install seaborn`
 * Tensorflow 
