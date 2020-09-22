@@ -3,6 +3,7 @@ The model has been trained using LSTM with a dataset of a collection of sonnets.
 
 # Requirnments
 •python2.7
+
 •tensorflow 0.12
   ○ CPU: pip install tensorflow==0.12.0
   ○ GPU: pip install tensorflow-gpu==0.12.0
