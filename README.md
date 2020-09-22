@@ -7,10 +7,13 @@ The model has been trained using LSTM with a dataset of a collection of sonnets.
 •tensorflow 0.12
   ○ CPU: pip install tensorflow==0.12.0
   ○ GPU: pip install tensorflow-gpu==0.12.0
+  
 •nltk,stopwords
   ○ import nltk; nltk.download("stopwords")
+  
 •sklearn
   ○ pip install sklearn
+  
 •numpy
   ○ pip install numpy
 
