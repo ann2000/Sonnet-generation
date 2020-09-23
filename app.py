@@ -1,6 +1,6 @@
-  
+ # Reference: https://www.youtube.com/watch?v=UbCWoMf80PY&t=470s 
 import numpy as np
-from flask import Flask, request, jsonify, render_template, url_for
+from flask import Flask, render_template
 from keras.models import load_model
 
 app = Flask(__name__)
