@@ -67,8 +67,11 @@ body {font-family: "Lato", sans-serif}
   <!-- The Generator Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">THE SONNET GENERATOR</h2>
-    <form action = "{{ url_for('generate_sonnet') }}" method="post">
-    <button type="submit" class="w3-button w3-black w3-margin-bottom">Click here!</button>
+    <form action = "{{ url_for('generate_sonnet') }}" method="POST" enctype="multipart/form-data">
+      <label for="image">Select image:</label>
+      <input type="file" id="image" name="file" accept="image/*">
+      <input class="w3-button w3-black w3-margin-bottom" type="submit" name="submit" value="submit">
+     
     </form>
     <p style="white-space: pre-line" >{{ sonnet }}</p>
     <div class="w3-row w3-padding-32">
