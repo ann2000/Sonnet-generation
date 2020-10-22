@@ -10,7 +10,8 @@ from keras.preprocessing.image import img_to_array
 from keras.applications.vgg16 import preprocess_input
 from keras.models import Model
 from pickle import load
-import fnmatch, os, shutil
+import fnmatch
+import os, shutil
 from werkzeug.utils import secure_filename
 
 
